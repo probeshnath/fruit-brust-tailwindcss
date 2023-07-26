@@ -18,6 +18,17 @@
             font-family: 'Lato', sans-serif;
         }
     </style>
+    <script>
+        tailwind.config = {
+        theme: {
+          extend: {
+            backgroundImage: {
+                    'meet-bg':"url('images/team.png')",
+                },
+          },
+        },
+      }
+    </script>
 </head>
 <body class="lato">
     <!-- Header section -->
@@ -384,6 +395,58 @@
 
             </div>
             <button class="py-4 px-8 text-lg font-extrabold bg-[#F85559] text-white rounded-lg mx-auto block">Shop All</button>
+        </section>
+
+        <!-- Meet the team section -->
+        <section class="max-w-7xl mb-10 mx-auto bg-[url('./images/team.png')] bg-cover bg-center p-5 lg:p-[120px] text-white text-center" > 
+            <h2 class="text-5xl font-extrabold mt-5">Meet the team section</h2>
+            <p class="w-[70%] mx-auto text-base font-medium my-3">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-7">
+                <!-- single person -->
+                <div class="flex flex-col gap-3">
+                    <img src="images/member1.png" class="w-[120px] h-[120px] rounded-full mx-auto" alt="">
+                    <h3 class="text-xl font-bold">Awlad Hossain</h3>
+                    <p class="text-base font-medium">Fruits Expert</p>
+                    <div class="flex gap-3 mx-auto">
+                        <i class="fa-brands fa-twitter flex justify-center items-center rounded-full cursor-pointer h-7 w-7 p-2 hover:bg-black bg-orange-600  "></i>
+                        <i class="fa-brands fa-facebook flex justify-center items-center rounded-full cursor-pointer h-7 w-7 p-2 hover:bg-black bg-orange-600 "></i>
+                      <i class="fa-brands fa-linkedin-in flex justify-center items-center rounded-full cursor-pointer h-7 w-7 p-2 hover:bg-black bg-orange-600 "></i>
+                    </div>
+                </div>
+                <!-- single person -->
+                <div class="flex flex-col gap-3">
+                    <img src="images/member2.png" class="w-[120px] h-[120px] rounded-full mx-auto" alt="">
+                    <h3 class="text-xl font-bold">Safia Chowdhury</h3>
+                    <p class="text-base font-medium">Fruits Expert</p>
+                    <div class="flex gap-3 mx-auto">
+                        <i class="fa-brands fa-twitter flex justify-center items-center rounded-full cursor-pointer h-7 w-7 p-2 hover:bg-black bg-orange-600  "></i>
+                        <i class="fa-brands fa-facebook flex justify-center items-center rounded-full cursor-pointer h-7 w-7 p-2 hover:bg-black bg-orange-600 "></i>
+                      <i class="fa-brands fa-linkedin-in flex justify-center items-center rounded-full cursor-pointer h-7 w-7 p-2 hover:bg-black bg-orange-600 "></i>
+                    </div>
+                </div>
+                <!-- single person -->
+                <div class="flex flex-col gap-3">
+                    <img src="images/member3.png" class="w-[120px] h-[120px] rounded-full mx-auto" alt="">
+                    <h3 class="text-xl font-bold">Rokib Hossain</h3>
+                    <p class="text-base font-medium">Fruits Expert</p>
+                    <div class="flex gap-3 mx-auto">
+                        <i class="fa-brands fa-twitter flex justify-center items-center rounded-full cursor-pointer h-7 w-7 p-2 hover:bg-black bg-orange-600  "></i>
+                        <i class="fa-brands fa-facebook flex justify-center items-center rounded-full cursor-pointer h-7 w-7 p-2 hover:bg-black bg-orange-600 "></i>
+                      <i class="fa-brands fa-linkedin-in flex justify-center items-center rounded-full cursor-pointer h-7 w-7 p-2 hover:bg-black bg-orange-600 "></i>
+                    </div>
+                </div>
+                <!-- single person -->
+                <div class="flex flex-col gap-3">
+                    <img src="images/member4.png" class="w-[120px] h-[120px] rounded-full mx-auto" alt="">
+                    <h3 class="text-xl font-bold">Chaity</h3>
+                    <p class="text-base font-medium">Fruits Expert</p>
+                    <div class="flex gap-3 mx-auto">
+                        <i class="fa-brands fa-twitter flex justify-center items-center rounded-full cursor-pointer h-7 w-7 p-2 hover:bg-black bg-orange-600  "></i>
+                        <i class="fa-brands fa-facebook flex justify-center items-center rounded-full cursor-pointer h-7 w-7 p-2 hover:bg-black bg-orange-600 "></i>
+                      <i class="fa-brands fa-linkedin-in flex justify-center items-center rounded-full cursor-pointer h-7 w-7 p-2 hover:bg-black bg-orange-600 "></i>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 

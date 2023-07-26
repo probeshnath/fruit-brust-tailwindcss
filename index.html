@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Brust</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <!-- Tailwind Css & Daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -32,9 +34,9 @@
 </head>
 <body class="lato">
     <!-- Header section -->
-    <header class="max-w-7xl mx-auto my-10 ">
+    <header class="max-w-7xl mx-auto md:my-10 ">
         <!-- navbar -->
-        <nav class="bg-[#F85559] text-white py-2 mx-3 lg:mx-0 px-5 border-none rounded-full">
+        <nav class="md:bg-[#F85559] md:text-white py-2 mx-3 lg:mx-0 px-5 border-none rounded-full">
             <div class="navbar flex justify-between">
                 <!-- Li items -->
                 <div class=" navbar-start hidden lg:flex">
@@ -57,11 +59,11 @@
                     <label tabindex="0" class=" cursor-pointer lg:hidden">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-500 rounded-box absolute right-5 w-52">
-                        <li><a>Home</a></li>
-                        <li><a>About Us</a></li>
-                        <li><a>Shop</a></li>
-                        <li><a>All Fruits </a></li>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-gray-500 rounded-box absolute right-5 w-52 text-white">
+                        <li><a class="hover:text-orange-600 ">Home</a></li>
+                        <li><a class="hover:text-orange-600 ">About Us</a></li>
+                        <li><a class="hover:text-orange-600 ">Shop</a></li>
+                        <li><a class="hover:text-orange-600 ">All Fruits </a></li>
                     </ul>
                 </div>
                  <!-- search Button -->
@@ -74,7 +76,7 @@
         </nav>
 
         <!-- slider section -->
-       <div class="my-10 mx-3 relative ">
+       <div class="md:my-10 my-5 mx-3 relative ">
           <div class="carousel w-full text-center ">
                 <div id="slide1" class="carousel-item relative  w-full ">
                 <img src="images/banner1.png" class="w-full  "  />
